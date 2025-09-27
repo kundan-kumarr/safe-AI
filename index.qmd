@@ -4,31 +4,45 @@ engine: knitr
 
 ## Preface {.unnumbered}
 
-This is a collection of lecture notes on **statistical analysis** and the use of the statistical programming language **R**.  
-Many of these lectures are based on course materials taught at **Iowa State University** and have been adapted and expanded by **Kundan Kumar**.
+This is a collection of notes and guidelines on **Safe AI** with a focus on **model security, adversarial robustness, and trustworthy practices** for modern cyber-physical systems (CPS).  
+The materials consolidate insights from research and practical applications, highlighting both fundamental concepts and advanced defense strategies.  
 
-Each lecture begins with learning objectives and required readings, with additional references provided throughout the text.  
-The notes introduce key methods and provide examples, but they are not intended to replace a textbook.
+Each section begins with learning objectives and core readings, with additional resources provided throughout the text.  
+The notes are intended as a complement to textbooks and formal training, offering targeted coverage of **security and robustness challenges in AI and ML systems deployed in CPS**.  
 
-The audience is expected to be familiar with R programming and the following statistical concepts and methods:  
-- probability distributions  
-- sampling inference and hypothesis testing  
-- correlation analysis  
-- regression analysis, including:  
-  - simple and multiple linear regression  
-  - mixed-effects models  
-  - generalized linear models  
-  - generalized additive models  
+The intended audience is expected to be familiar with programming and the following concepts and methods:  
+- probability and statistics for uncertainty quantification  
+- algorithms and data structures for secure computation  
+- optimization methods under adversarial constraints  
+- machine learning and deep learning fundamentals  
+- reinforcement learning for decision-making in CPS  
+- adversarial machine learning:  
+  - evasion attacks  
+  - poisoning attacks  
+  - backdoor attacks  
+- robustness techniques:  
+  - adversarial training  
+  - defensive distillation  
+  - certified defenses  
+- black-box and grey-box testing methods for model evaluation  
+- explainability, transparency, and safe deployment practices  
+- research methodology and experimental design for trustworthy AI in CPS  
+
+---
 
 ## Author {.unnumbered}
 
 **Kundan Kumar**  
 <https://kundan-kumarr.github.io/>
 
+---
+
 ## Citation {.unnumbered}
 
-Kumar, K. (`r substr(Sys.Date(), 1, 4)`). *Statistical Analysis: Lecture Notes with R*. Edition `r substr(Sys.Date(), 1, 7)`.
+Kumar, K. (`r substr(Sys.Date(), 1, 4)`). *Safe AI for Cyber-Physical Systems: Model Security, Adversarial Robustness, and Trustworthy Methods*. Edition `r substr(Sys.Date(), 1, 7)`.
+
+---
 
 ## License {.unnumbered}
 
-This work is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This work is licensed under the [MIT License](https://opensource.org/licenses/MIT). 

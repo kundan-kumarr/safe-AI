@@ -3,8 +3,8 @@ project:
     output-dir: docs
 
 book:
-    title: Statistical Analysis
-    subtitle: Statistical Analysis Lecture Notes with R
+    title: Safe AI for Cyber-Physical Systems
+    subtitle: Model Security, Adversarial Robustness, and Trustworthy Methods
     author: Kundan Kumar
     # date: today
     date-format: iso
