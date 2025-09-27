@@ -2,9 +2,12 @@
   {
     "objectID": "index.html#preface",
     "href": "index.html#preface",
-    "title": "Time Series Analysis",
-    "section": "Preface",
-    "text": "Preface\nThis is a collection of lecture notes on applied time series analysis and forecasting using the statistical programming language R. Many of these lectures are based on the original notes by Y. R. Gel and C. Cutler for the course STAT-443 Forecasting (University of Waterloo, Canada) adapted and expanded by V. Lyubchich for the course MEES-713 Environmental Statistics 2 (University of Maryland, USA).\nEach lecture starts by listing the learning objectives and required reading materials, with additional references in the text. The notes introduce the methods and give a few examples but are less detailed than the reading materials. The notes do not substitute a textbook.\nThe audience is expected to be familiar with R programming and the following statistical concepts and methods: probability distributions, sampling inference and hypothesis testing, correlation analysis, and regression analysis (including simple and multiple linear regression, mixed-effects models, generalized linear models, and generalized additive models)."
+    "title": "Safe AI for Cyber-Physical Systems",
+    "section": "",
+    "text": "probability and statistics for uncertainty quantification\n\nalgorithms and data structures for secure computation\n\nreinforcement learning for decision-making in CPS\nadversarial machine learning\n\nevasion attacks\npoisoning attacks\nbackdoor attacks\n\n\nOptimization & Control\n\noptimization techniques (convex, non-convex, gradient-based methods)\nmodel predictive control and decision-making under constraints\nuncertainty modeling and robust control strategies\n\n\nrobustness techniques\n\nadversarial training\n\ndefensive distillation\n\ncertified defenses\n\n\noptimization methods under adversarial constraints\nblack-box and grey-box testing methods for model evaluation\n\nexplainability, transparency, and safe deployment practices\n\nresearch methodology and experimental design for trustworthy AI in CPS",
+    "crumbs": [
+      "Preface"
+    ]
   },
   {
     "objectID": "index.html#authors",
@@ -776,7 +779,7 @@
     "href": "index.html",
     "title": "Safe AI for Cyber-Physical Systems",
     "section": "",
-    "text": "Preface\nThis is a collection of notes and guidelines on Safe AI with a focus on model security, adversarial robustness, and trustworthy practices for modern cyber-physical systems (CPS).\nThe materials consolidate insights from research and practical applications, highlighting both fundamental concepts and advanced defense strategies.\nEach section begins with learning objectives and core readings, with additional resources provided throughout the text.\nThe notes are intended as a complement to textbooks and formal training, offering targeted coverage of security and robustness challenges in AI and ML systems deployed in CPS.\nThe intended audience is expected to be familiar with programming and the following concepts and methods:\n- probability and statistics for uncertainty quantification\n- algorithms and data structures for secure computation\n- optimization methods under adversarial constraints\n- machine learning and deep learning fundamentals\n- reinforcement learning for decision-making in CPS\n- adversarial machine learning:\n- evasion attacks\n- poisoning attacks\n- backdoor attacks\n- robustness techniques:\n- adversarial training\n- defensive distillation\n- certified defenses\n- black-box and grey-box testing methods for model evaluation\n- explainability, transparency, and safe deployment practices\n- research methodology and experimental design for trustworthy AI in CPS",
+    "text": "Preface\nThis is a collection of notes and guidelines on Safe AI with a focus on model security, adversarial robustness, and trustworthy practices for modern cyber-physical systems (CPS).\nThe materials consolidate insights from research and practical applications, highlighting both fundamental concepts and advanced defense strategies.\nEach section begins with learning objectives and core readings, with additional resources provided throughout the text.\nThe notes are intended as a complement to textbooks and formal training, offering targeted coverage of security and robustness challenges in AI and ML systems deployed in CPS.\nThe intended audience is expected to be familiar with programming and the following concepts and methods:",
     "crumbs": [
       "Preface"
     ]
