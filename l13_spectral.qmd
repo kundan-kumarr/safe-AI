@@ -14,8 +14,31 @@ theme_set(theme_light())
 
 # Adversarial Machine Learning
 
-The goal of this lecture is to learn how to view time series from the frequency perspective. 
-You should be able to recognize features of time series from a periodogram similar to how we did it using plots of the autocorrelation function (ACF).
+The goal of this lecture 
+
+A adversarial attacks is typically derived based on an assumed threat model regarding the goal, knowledge, and target strategy of the adversary
+Adversary’s goal
+Poisoning attack, evasion attack: cause the ML model to perform incorrectly
+Privacy attack: acquire knowledge about the training data or the model
+Availability attack: cause the ML model to be become unavailable
+Adversary’s knowledge
+White-box attack: the adversary has full knowledge of the ML model
+Black-box attack: has no knowledge of the ML model
+Gray-box attack: has some knowledge of the ML model 
+Adversary’s target strategy
+Targeted attack: cause the ML model to output a target label for an input 
+Non-targeted attack: cause the ML to output any incorrect label for an input
+
+
+A adversarial attacks is typically derived based on an assumed threat model regarding the goal, knowledge, and target strategy of the adversary
+
+Adversarial Machine Learning is a field that studies the vulnerabilities of machine learning models to malicious manipulation and develops techniques to make them more robust.
+Core Concept
+At its heart, adversarial ML involves creating adversarial examples - inputs that are intentionally designed to fool machine learning models. These are often imperceptible or subtle modifications to legitimate inputs that cause models to make incorrect predictions.
+Classic example: Adding carefully calculated noise to an image of a panda that's invisible to humans, but causes an image classifier to confidently misidentify it as a gibbon.
+
+Adversarial Machine Learning is the study of attacks against ML systems and defenses against them. The key insight is that every adversarial attack operates within a threat model defined by three dimensions:
+
 
 **Objectives**
 
