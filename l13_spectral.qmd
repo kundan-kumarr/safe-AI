@@ -12,7 +12,7 @@ options(digits = 3)
 theme_set(theme_light())
 ```
 
-# Adversarial Machine Learning
+# Adversarial LLMs1
 
 The goal of this lecture 
 

@@ -12,7 +12,7 @@ options(digits = 3)
 theme_set(theme_light())
 ```
 
-# Trend Detection {#sec-trendtest}
+# White-box Evasion Attack {#sec-trendtest}
 
 This lecture demonstrates the effects of autocorrelation on the results of statistical tests for trend detection. 
 You will recall the assumptions of the classical $t$-test and Mann--Kendall tests and will be able to suggest bootstrapped modifications of these tests to overcome the problem of temporal dependence. 
@@ -25,6 +25,16 @@ Moreover, you will become familiar with tests for non-monotonic parametric trend
 1. Apply bootstrap to the $t$-test and Mann--Kendall tests.
 1. Test for non-monotonic parametric trends.
 1. Test for stochastic trends (i.e., unit roots).
+Fast gradient sign method (FGSM) attack
+Projected gradient descent (PGD) attack
+DeepFool attack
+Carlini & Wagner (C&W) attack
+Jacobian-based saliency map attack
+Universal attack
+One-pixel attack
+Elastic-net attack
+Spatially transformed attack
+
 
 **Reading materials**
 
@@ -86,7 +96,7 @@ Type I error (false positives) of this test is inflated due to the dependence ef
 Additionally, this test is limited only to detecting linear trends (see the alternative hypothesis $H_1$).
 
 
-### Mann--Kendall test for monotonic trend
+### Carlini-Wagner Paper (C&W Attack)
 
 The Mann--Kendall test is based on the Kendall rank correlation and is used to determine if a non-seasonal time series has a monotonic trend over time.
 
