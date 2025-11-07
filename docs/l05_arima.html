@@ -354,11 +354,50 @@ window.Quarto = {
         <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Table of contents</h2>
    
   <ul>
-<li><a href="#introduction-to-arima" id="toc-introduction-to-arima" class="nav-link active" data-scroll-target="#introduction-to-arima"><span class="header-section-number">5.1</span> Introduction to ARIMA</a></li>
-  <li><a href="#boxjenkins-methodology" id="toc-boxjenkins-methodology" class="nav-link" data-scroll-target="#boxjenkins-methodology"><span class="header-section-number">5.2</span> Box–Jenkins methodology</a></li>
-  <li><a href="#seasonal-arima-sarima" id="toc-seasonal-arima-sarima" class="nav-link" data-scroll-target="#seasonal-arima-sarima"><span class="header-section-number">5.3</span> Seasonal ARIMA (SARIMA)</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">5.4</span> Conclusion</a></li>
-  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="header-section-number">5.5</span> Appendix</a></li>
+<li><a href="#machine-learning-basics" id="toc-machine-learning-basics" class="nav-link active" data-scroll-target="#machine-learning-basics"><span class="header-section-number">5.1</span> Machine Learning Basics</a></li>
+  <li>
+<a href="#types-of-machine-learning" id="toc-types-of-machine-learning" class="nav-link" data-scroll-target="#types-of-machine-learning"><span class="header-section-number">5.2</span> Types of Machine Learning</a>
+  <ul class="collapse">
+<li><a href="#supervised-learning" id="toc-supervised-learning" class="nav-link" data-scroll-target="#supervised-learning"><span class="header-section-number">5.2.1</span> Supervised Learning</a></li>
+  <li><a href="#unsupervised-learning" id="toc-unsupervised-learning" class="nav-link" data-scroll-target="#unsupervised-learning"><span class="header-section-number">5.2.2</span> Unsupervised Learning</a></li>
+  <li><a href="#reinforcement-learning" id="toc-reinforcement-learning" class="nav-link" data-scroll-target="#reinforcement-learning"><span class="header-section-number">5.2.3</span> Reinforcement Learning</a></li>
+  </ul>
+</li>
+  <li><a href="#linear-vs-nonlinear-models" id="toc-linear-vs-nonlinear-models" class="nav-link" data-scroll-target="#linear-vs-nonlinear-models"><span class="header-section-number">5.3</span> 3. Linear vs Nonlinear Models</a></li>
+  <li><a href="#structure-of-neural-networks" id="toc-structure-of-neural-networks" class="nav-link" data-scroll-target="#structure-of-neural-networks"><span class="header-section-number">5.4</span> Structure of Neural Networks</a></li>
+  <li><a href="#activation-functions" id="toc-activation-functions" class="nav-link" data-scroll-target="#activation-functions"><span class="header-section-number">5.5</span> Activation Functions</a></li>
+  <li><a href="#loss-functions" id="toc-loss-functions" class="nav-link" data-scroll-target="#loss-functions"><span class="header-section-number">5.6</span> Loss Functions</a></li>
+  <li>
+<a href="#gradient-descent" id="toc-gradient-descent" class="nav-link" data-scroll-target="#gradient-descent"><span class="header-section-number">5.7</span> Gradient Descent</a>
+  <ul class="collapse">
+<li><a href="#mini-batch-gradient-descent" id="toc-mini-batch-gradient-descent" class="nav-link" data-scroll-target="#mini-batch-gradient-descent"><span class="header-section-number">5.7.1</span> Mini-batch Gradient Descent</a></li>
+  </ul>
+</li>
+  <li><a href="#momentum-and-learning-rate-schedules" id="toc-momentum-and-learning-rate-schedules" class="nav-link" data-scroll-target="#momentum-and-learning-rate-schedules"><span class="header-section-number">5.8</span> Momentum and Learning Rate Schedules</a></li>
+  <li><a href="#vanishing-and-exploding-gradients" id="toc-vanishing-and-exploding-gradients" class="nav-link" data-scroll-target="#vanishing-and-exploding-gradients"><span class="header-section-number">5.9</span> Vanishing and Exploding Gradients</a></li>
+  <li>
+<a href="#regularization-for-generalization" id="toc-regularization-for-generalization" class="nav-link" data-scroll-target="#regularization-for-generalization"><span class="header-section-number">5.10</span> Regularization for Generalization</a>
+  <ul class="collapse">
+<li><a href="#weight-decay" id="toc-weight-decay" class="nav-link" data-scroll-target="#weight-decay"><span class="header-section-number">5.10.1</span> Weight Decay</a></li>
+  <li><a href="#dropout" id="toc-dropout" class="nav-link" data-scroll-target="#dropout"><span class="header-section-number">5.10.2</span> Dropout</a></li>
+  <li><a href="#early-stopping" id="toc-early-stopping" class="nav-link" data-scroll-target="#early-stopping"><span class="header-section-number">5.10.3</span> Early Stopping</a></li>
+  <li><a href="#batch-normalization" id="toc-batch-normalization" class="nav-link" data-scroll-target="#batch-normalization"><span class="header-section-number">5.10.4</span> Batch Normalization</a></li>
+  </ul>
+</li>
+  <li><a href="#convolutional-neural-networks-cnns" id="toc-convolutional-neural-networks-cnns" class="nav-link" data-scroll-target="#convolutional-neural-networks-cnns"><span class="header-section-number">5.11</span> Convolutional Neural Networks (CNNs)</a></li>
+  <li><a href="#residual-networks-resnets" id="toc-residual-networks-resnets" class="nav-link" data-scroll-target="#residual-networks-resnets"><span class="header-section-number">5.12</span> Residual Networks (ResNets)</a></li>
+  <li>
+<a href="#recurrent-neural-networks-rnns" id="toc-recurrent-neural-networks-rnns" class="nav-link" data-scroll-target="#recurrent-neural-networks-rnns"><span class="header-section-number">5.13</span> Recurrent Neural Networks (RNNs)</a>
+  <ul class="collapse">
+<li><a href="#long-short-term-memory-lstm" id="toc-long-short-term-memory-lstm" class="nav-link" data-scroll-target="#long-short-term-memory-lstm"><span class="header-section-number">5.13.1</span> Long Short-Term Memory (LSTM)</a></li>
+  </ul>
+</li>
+  <li><a href="#transformer-networks" id="toc-transformer-networks" class="nav-link" data-scroll-target="#transformer-networks"><span class="header-section-number">5.14</span> Transformer Networks</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">5.15</span> Summary</a></li>
+  <li><a href="#boxjenkins-methodology" id="toc-boxjenkins-methodology" class="nav-link" data-scroll-target="#boxjenkins-methodology"><span class="header-section-number">5.16</span> Box–Jenkins methodology</a></li>
+  <li><a href="#seasonal-arima-sarima" id="toc-seasonal-arima-sarima" class="nav-link" data-scroll-target="#seasonal-arima-sarima"><span class="header-section-number">5.17</span> Seasonal ARIMA (SARIMA)</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">5.18</span> Conclusion</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix"><span class="header-section-number">5.19</span> Appendix</a></li>
   </ul><div class="toc-actions"><ul><li><a href="https://github.com/kundan-kumarr/StatSphere/edit/master/l05_arima.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/kundan-kumarr/StatSphere/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
@@ -379,21 +418,299 @@ window.Quarto = {
   
 
 
-</header><p>The goal of this lecture is to implement Box–Jenkins methodology for nonstationary time series, by applying differences and fitting an ARMA model to the stationary differenced series. You should be able to recognize when the differencing is needed based on the time series and ACF plots.</p>
+</header><p>The goal of this lecture is to understand the core principles and architectures of deep learning models. We will learn how deep learning extends traditional machine learning through multi-layer neural networks, explore the mathematical foundation behind neural computations, and understand how training and optimization methods such as gradient descent enable models to learn complex patterns from data.</p>
 <p><strong>Objectives</strong></p>
 <ol type="1">
-<li>List the steps of Box–Jenkins methodology.</li>
-<li>Identify the order of differences <span class="math inline">\(d\)</span> and order of seasonal differences <span class="math inline">\(D\)</span> from the plots of original and differenced time series.</li>
-<li>Recall how the orders <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> are identified using ACF and PACF plots for non-seasonal time series.</li>
-<li>Identify the orders <span class="math inline">\(P\)</span> and <span class="math inline">\(Q\)</span> for seasonal time series.</li>
+<li>Describe how Deep Learning (DL) fits within the broader field of Machine Learning (ML) and Artificial Intelligence (AI).</li>
+<li>Explain the structure and mathematical operations of a neural network, including layers, weights, biases, and activations.</li>
+<li>Distinguish between linear and non-linear models, and understand how non-linearity enables complex decision boundaries.</li>
+<li>Apply concepts of activation functions such as sigmoid, tanh, and ReLU, and interpret their mathematical properties.</li>
+<li>Understand the training process of deep neural networks using gradient descent and backpropagation.</li>
+<li>Discuss common problems such as overfitting, vanishing gradients, and how regularization and normalization techniques mitigate them.</li>
+<li>Identify the structure and purpose of key architectures including Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and Transformers.</li>
 </ol>
 <p><strong>Reading materials</strong></p>
 <ul>
-<li>Chapters 6.1–6.5 in <span class="citation" data-cites="Brockwell:Davis:2002">Brockwell and Davis (<a href="references.html#ref-Brockwell:Davis:2002" role="doc-biblioref">2002</a>)</span>
-</li>
+<li>CS231n: Convolutional Neural Networks for Visual Recognition – Stanford University</li>
+<li>Goodfellow, Bengio &amp; Courville (2016) – Deep Learning, MIT Press, Chapters 6–8</li>
+<li>Hung-Yi Lee – Deep Learning Tutorial</li>
+<li>Ismini Lourentzou – Introduction to Deep Learning</li>
+<li>Sebastian Ruder (2016) – An Overview of Gradient Descent Optimization Algorithms</li>
 </ul>
-<section id="introduction-to-arima" class="level2" data-number="5.1"><h2 data-number="5.1" class="anchored" data-anchor-id="introduction-to-arima">
-<span class="header-section-number">5.1</span> Introduction to ARIMA</h2>
+<section id="machine-learning-basics" class="level2" data-number="5.1"><h2 data-number="5.1" class="anchored" data-anchor-id="machine-learning-basics">
+<span class="header-section-number">5.1</span> Machine Learning Basics</h2>
+<p>Machine learning enables computers to learn patterns from data without explicit programming. The goal of an ML model is to find a mapping function:</p>
+<p>Machine learning aims to learn a function <span class="math inline">\(f_\theta\)</span> that maps inputs <span class="math inline">\(x\)</span> to outputs <span class="math inline">\(y\)</span>:</p>
+<p><span class="math display">\[
+f_\theta : X \rightarrow Y,
+\]</span></p>
+<p>where <span class="math inline">\(\theta\)</span> represents model parameters (weights and biases).<br>
+The learning objective is to minimize the expected loss:</p>
+<p><span class="math display">\[
+\theta^* = \arg\min_\theta \, \mathbb{E}_{(x, y) \sim D}[L(y, f_\theta(x))].
+\]</span></p>
+</section><section id="types-of-machine-learning" class="level2" data-number="5.2"><h2 data-number="5.2" class="anchored" data-anchor-id="types-of-machine-learning">
+<span class="header-section-number">5.2</span> Types of Machine Learning</h2>
+<section id="supervised-learning" class="level3" data-number="5.2.1"><h3 data-number="5.2.1" class="anchored" data-anchor-id="supervised-learning">
+<span class="header-section-number">5.2.1</span> Supervised Learning</h3>
+<p>Learns from labeled pairs <span class="math inline">\((x_i, y_i)\)</span> to predict <span class="math inline">\(\hat{y_i}\)</span>.</p>
+<ul>
+<li>
+<strong>Regression:</strong> <span class="math inline">\(y_i = f_\theta(x_i) + \varepsilon_i\)</span>
+</li>
+<li>
+<strong>Classification:</strong> <span class="math inline">\(P(y=1|x) = \frac{1}{1 + e^{-(\beta_0 + \beta_1x)}}\)</span>
+</li>
+</ul></section><section id="unsupervised-learning" class="level3" data-number="5.2.2"><h3 data-number="5.2.2" class="anchored" data-anchor-id="unsupervised-learning">
+<span class="header-section-number">5.2.2</span> Unsupervised Learning</h3>
+<p>Finds structure in unlabeled data <span class="math inline">\(\{x_i\}\)</span>.</p>
+<ul>
+<li>
+<strong>Clustering:</strong> <span class="math display">\[
+\min_{\{C_k\}} \sum_{k=1}^K \sum_{x_i \in C_k} \|x_i - \mu_k\|^2
+\]</span>
+</li>
+<li>
+<strong>PCA:</strong> <span class="math display">\[
+W^* = \arg\max_W \det(W^\top S W)
+\]</span>
+</li>
+</ul></section><section id="reinforcement-learning" class="level3" data-number="5.2.3"><h3 data-number="5.2.3" class="anchored" data-anchor-id="reinforcement-learning">
+<span class="header-section-number">5.2.3</span> Reinforcement Learning</h3>
+<p>Learns a policy <span class="math inline">\(\pi(a|s)\)</span> that maximizes reward:</p>
+<p><span class="math display">\[
+J(\pi) = \mathbb{E}\left[\sum_{t=0}^{T}\gamma^t r_t\right].
+\]</span></p>
+</section></section><section id="linear-vs-nonlinear-models" class="level2" data-number="5.3"><h2 data-number="5.3" class="anchored" data-anchor-id="linear-vs-nonlinear-models">
+<span class="header-section-number">5.3</span> 3. Linear vs Nonlinear Models</h2>
+<p>A <strong>linear classifier</strong> defines a boundary:</p>
+<p><span class="math display">\[
+\mathbf{w}^\top \mathbf{x} + b = 0.
+\]</span></p>
+<p>A <strong>nonlinear classifier</strong> maps data to a transformed space <span class="math inline">\(\phi(x)\)</span>:</p>
+<p><span class="math display">\[
+f(x) = \mathbf{w}^\top \phi(x) + b.
+\]</span></p>
+<p>Neural networks learn these nonlinear transformations automatically through layers of activations. <img src="figures/linear_vs_nonlinear.png" class="img-fluid" style="width:80.0%" data-fig-cap="Linear vs Nonlinear Classification.   Linear classifiers separate data using a single hyperplane, while nonlinear classifiers create curved or complex boundaries through kernel transformations or hidden layers in neural networks."></p>
+<div class="cell">
+<details class="code-fold"><summary>Code</summary><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate synthetic data</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>np.random.seed(<span class="dv">0</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>X1 <span class="op">=</span> np.random.randn(<span class="dv">40</span>, <span class="dv">2</span>) <span class="op">+</span> np.array([<span class="op">-</span><span class="dv">2</span>, <span class="dv">0</span>])</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>X2 <span class="op">=</span> np.random.randn(<span class="dv">40</span>, <span class="dv">2</span>) <span class="op">+</span> np.array([<span class="dv">2</span>, <span class="dv">0</span>])</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot points</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>plt.scatter(X1[:, <span class="dv">0</span>], X1[:, <span class="dv">1</span>], color<span class="op">=</span><span class="st">"dodgerblue"</span>, label<span class="op">=</span><span class="st">"Class A"</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>plt.scatter(X2[:, <span class="dv">0</span>], X2[:, <span class="dv">1</span>], color<span class="op">=</span><span class="st">"orange"</span>, label<span class="op">=</span><span class="st">"Class B"</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Linear boundary</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>x_vals <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">4</span>, <span class="dv">4</span>, <span class="dv">100</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>plt.plot(x_vals, <span class="op">-</span><span class="fl">0.5</span> <span class="op">*</span> x_vals, <span class="st">'b--'</span>, lw<span class="op">=</span><span class="dv">2</span>, label<span class="op">=</span><span class="st">"Linear Boundary"</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Nonlinear boundary (quadratic)</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>plt.plot(x_vals, <span class="fl">0.2</span> <span class="op">*</span> x_vals<span class="op">**</span><span class="dv">2</span> <span class="op">-</span> <span class="dv">2</span>, <span class="st">'r-'</span>, lw<span class="op">=</span><span class="dv">2</span>, label<span class="op">=</span><span class="st">"Nonlinear Boundary"</span>)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Linear vs Nonlinear Classification"</span>)</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"$x_1$"</span>)</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"$x_2$"</span>)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>plt.grid(alpha<span class="op">=</span><span class="fl">0.3</span>)</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details><div class="cell-output-display">
+<div>
+<figure class="figure"><p><img src="l05_arima_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+</section><section id="structure-of-neural-networks" class="level2" data-number="5.4"><h2 data-number="5.4" class="anchored" data-anchor-id="structure-of-neural-networks">
+<span class="header-section-number">5.4</span> Structure of Neural Networks</h2>
+<p>Each neuron performs a linear combination followed by a nonlinear transformation:</p>
+<p><span class="math display">\[
+z = \mathbf{w}^\top \mathbf{x} + b, \quad a = \sigma(z)
+\]</span></p>
+<p>For a deep network with <span class="math inline">\(L\)</span> layers:</p>
+<p><span class="math display">\[
+\begin{aligned}
+a^{(1)} &amp;= \sigma(W^{(1)}x + b^{(1)}) \\
+a^{(2)} &amp;= \sigma(W^{(2)}a^{(1)} + b^{(2)}) \\
+&amp;\vdots \\
+\hat{y} &amp;= \sigma(W^{(L)}a^{(L-1)} + b^{(L)})
+\end{aligned}
+\]</span></p>
+</section><section id="activation-functions" class="level2" data-number="5.5"><h2 data-number="5.5" class="anchored" data-anchor-id="activation-functions">
+<span class="header-section-number">5.5</span> Activation Functions</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 27%">
+<col style="width: 22%">
+<col style="width: 19%">
+</colgroup>
+<thead><tr class="header">
+<th>Function</th>
+<th>Formula</th>
+<th>Range</th>
+<th>Notes</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td><strong>Sigmoid</strong></td>
+<td><span class="math inline">\(\sigma(x) = \frac{1}{1 + e^{-x}}\)</span></td>
+<td>(0, 1)</td>
+<td>Saturates, causes vanishing gradients</td>
+</tr>
+<tr class="even">
+<td><strong>Tanh</strong></td>
+<td><span class="math inline">\(\tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}\)</span></td>
+<td>(-1, 1)</td>
+<td>Zero-centered</td>
+</tr>
+<tr class="odd">
+<td><strong>ReLU</strong></td>
+<td><span class="math inline">\(\text{ReLU}(x) = \max(0, x)\)</span></td>
+<td>[0, ∞)</td>
+<td>Fast and sparse</td>
+</tr>
+<tr class="even">
+<td><strong>Leaky ReLU</strong></td>
+<td><span class="math inline">\(\text{LeakyReLU}(x) = \max(\alpha x, x)\)</span></td>
+<td>(-∞, ∞)</td>
+<td>Fixes “dying ReLU”</td>
+</tr>
+<tr class="odd">
+<td><strong>Linear</strong></td>
+<td><span class="math inline">\(f(x) = cx\)</span></td>
+<td>(-∞, ∞)</td>
+<td>Used in regression</td>
+</tr>
+</tbody>
+</table></section><section id="loss-functions" class="level2" data-number="5.6"><h2 data-number="5.6" class="anchored" data-anchor-id="loss-functions">
+<span class="header-section-number">5.6</span> Loss Functions</h2>
+<p>To train a network, we minimize a loss function <span class="math inline">\(L(y, \hat{y})\)</span>:</p>
+<ul>
+<li>
+<strong>Mean Squared Error (MSE):</strong> <span class="math display">\[
+L = \frac{1}{N}\sum_{i=1}^{N}(y_i - \hat{y}_i)^2
+\]</span>
+</li>
+<li>
+<strong>Cross-Entropy Loss:</strong> <span class="math display">\[
+L = -\sum_i y_i \log(\hat{y}_i)
+\]</span>
+</li>
+</ul></section><section id="gradient-descent" class="level2" data-number="5.7"><h2 data-number="5.7" class="anchored" data-anchor-id="gradient-descent">
+<span class="header-section-number">5.7</span> Gradient Descent</h2>
+<p>Model parameters are updated iteratively:</p>
+<p><span class="math display">\[
+\theta_{t+1} = \theta_t - \eta \nabla_\theta L(\theta_t),
+\]</span></p>
+<p>where <span class="math inline">\(\eta\)</span> is the <strong>learning rate</strong>.</p>
+<section id="mini-batch-gradient-descent" class="level3" data-number="5.7.1"><h3 data-number="5.7.1" class="anchored" data-anchor-id="mini-batch-gradient-descent">
+<span class="header-section-number">5.7.1</span> Mini-batch Gradient Descent</h3>
+<p><span class="math display">\[
+\theta_{t+1} = \theta_t - \frac{\eta}{m} \sum_{i=1}^{m}\nabla_\theta L_i(\theta_t)
+\]</span></p>
+<p>Balances speed and stability in updates.</p>
+</section></section><section id="momentum-and-learning-rate-schedules" class="level2" data-number="5.8"><h2 data-number="5.8" class="anchored" data-anchor-id="momentum-and-learning-rate-schedules">
+<span class="header-section-number">5.8</span> Momentum and Learning Rate Schedules</h2>
+<p>Add momentum to accelerate convergence:</p>
+<p><span class="math display">\[
+v_t = \beta v_{t-1} + (1 - \beta)\nabla_\theta L(\theta_t),
+\quad \theta_{t+1} = \theta_t - \eta v_t
+\]</span></p>
+<p><strong>Learning rate schedules:</strong></p>
+<ul>
+<li>Step decay: <span class="math inline">\(\eta_t = \eta_0 \gamma^{\lfloor t/s \rfloor}\)</span>
+</li>
+<li>Exponential decay: <span class="math inline">\(\eta_t = \eta_0 e^{-\lambda t}\)</span>
+</li>
+<li>Cosine annealing: <span class="math inline">\(\eta_t = \eta_0 \frac{1}{2}(1 + \cos(\pi t/T))\)</span>
+</li>
+</ul></section><section id="vanishing-and-exploding-gradients" class="level2" data-number="5.9"><h2 data-number="5.9" class="anchored" data-anchor-id="vanishing-and-exploding-gradients">
+<span class="header-section-number">5.9</span> Vanishing and Exploding Gradients</h2>
+<p>Gradients may vanish or explode when propagated through many layers:</p>
+<p><span class="math display">\[
+\frac{\partial L}{\partial W^{(l)}} \propto \prod_{i&gt;l} \frac{\partial a^{(i)}}{\partial z^{(i)}}
+\]</span></p>
+<p><strong>Solutions:</strong> - ReLU activations - Batch normalization - Gradient clipping - LSTM gates in RNNs</p>
+</section><section id="regularization-for-generalization" class="level2" data-number="5.10"><h2 data-number="5.10" class="anchored" data-anchor-id="regularization-for-generalization">
+<span class="header-section-number">5.10</span> Regularization for Generalization</h2>
+<section id="weight-decay" class="level3" data-number="5.10.1"><h3 data-number="5.10.1" class="anchored" data-anchor-id="weight-decay">
+<span class="header-section-number">5.10.1</span> Weight Decay</h3>
+<p><span class="math display">\[
+L' = L + \lambda \|W\|_2^2
+\]</span></p>
+</section><section id="dropout" class="level3" data-number="5.10.2"><h3 data-number="5.10.2" class="anchored" data-anchor-id="dropout">
+<span class="header-section-number">5.10.2</span> Dropout</h3>
+<p><span class="math display">\[
+a_i' = a_i \cdot r_i, \quad r_i \sim \text{Bernoulli}(1 - p)
+\]</span></p>
+</section><section id="early-stopping" class="level3" data-number="5.10.3"><h3 data-number="5.10.3" class="anchored" data-anchor-id="early-stopping">
+<span class="header-section-number">5.10.3</span> Early Stopping</h3>
+<p>Stop when validation loss no longer improves.</p>
+</section><section id="batch-normalization" class="level3" data-number="5.10.4"><h3 data-number="5.10.4" class="anchored" data-anchor-id="batch-normalization">
+<span class="header-section-number">5.10.4</span> Batch Normalization</h3>
+<p><span class="math display">\[
+\hat{x} = \frac{x - \mu_B}{\sqrt{\sigma_B^2 + \epsilon}}, \quad y = \gamma \hat{x} + \beta
+\]</span></p>
+</section></section><section id="convolutional-neural-networks-cnns" class="level2" data-number="5.11"><h2 data-number="5.11" class="anchored" data-anchor-id="convolutional-neural-networks-cnns">
+<span class="header-section-number">5.11</span> Convolutional Neural Networks (CNNs)</h2>
+<p>Convolution extracts local spatial features:</p>
+<p><span class="math display">\[
+Y(i, j) = \sum_m \sum_n X(i + m, j + n) K(m, n)
+\]</span></p>
+<p>Pooling reduces spatial dimension:</p>
+<ul>
+<li>Max Pooling: <span class="math inline">\(y = \max(x_1, \dots, x_n)\)</span><br>
+</li>
+<li>Average Pooling: <span class="math inline">\(y = \frac{1}{n}\sum_i x_i\)</span>
+</li>
+</ul></section><section id="residual-networks-resnets" class="level2" data-number="5.12"><h2 data-number="5.12" class="anchored" data-anchor-id="residual-networks-resnets">
+<span class="header-section-number">5.12</span> Residual Networks (ResNets)</h2>
+<p>Residual connections help train very deep networks:</p>
+<p><span class="math display">\[
+y = F(x) + x
+\]</span></p>
+<p>The network learns the residual mapping <span class="math inline">\(F(x) = H(x) - x\)</span>, stabilizing gradients across hundreds of layers.</p>
+</section><section id="recurrent-neural-networks-rnns" class="level2" data-number="5.13"><h2 data-number="5.13" class="anchored" data-anchor-id="recurrent-neural-networks-rnns">
+<span class="header-section-number">5.13</span> Recurrent Neural Networks (RNNs)</h2>
+<p>Sequential models update a hidden state over time:</p>
+<p><span class="math display">\[
+h_t = f(W_h h_{t-1} + W_x x_t + b)
+\]</span></p>
+<section id="long-short-term-memory-lstm" class="level3" data-number="5.13.1"><h3 data-number="5.13.1" class="anchored" data-anchor-id="long-short-term-memory-lstm">
+<span class="header-section-number">5.13.1</span> Long Short-Term Memory (LSTM)</h3>
+<p><span class="math display">\[
+\begin{aligned}
+i_t &amp;= \sigma(W_i x_t + U_i h_{t-1} + b_i) \\
+f_t &amp;= \sigma(W_f x_t + U_f h_{t-1} + b_f) \\
+o_t &amp;= \sigma(W_o x_t + U_o h_{t-1} + b_o) \\
+c_t &amp;= f_t \odot c_{t-1} + i_t \odot \tanh(W_c x_t + U_c h_{t-1} + b_c) \\
+h_t &amp;= o_t \odot \tanh(c_t)
+\end{aligned}
+\]</span></p>
+</section></section><section id="transformer-networks" class="level2" data-number="5.14"><h2 data-number="5.14" class="anchored" data-anchor-id="transformer-networks">
+<span class="header-section-number">5.14</span> Transformer Networks</h2>
+<p>Self-attention replaces recurrence, allowing parallel computation.</p>
+<p><span class="math display">\[
+\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^\top}{\sqrt{d_k}}\right)V
+\]</span></p>
+<p>Multiple heads attend to different relationships:</p>
+<p><span class="math display">\[
+\text{MultiHead}(Q, K, V) = \text{Concat}(head_1, \ldots, head_h) W^O
+\]</span></p>
+<p>Transformers power modern large language models such as GPT and BERT.</p>
+</section><section id="summary" class="level2" data-number="5.15"><h2 data-number="5.15" class="anchored" data-anchor-id="summary">
+<span class="header-section-number">5.15</span> Summary</h2>
+<p>Deep learning combines principles of <strong>linear algebra, calculus, and probability</strong> to learn from massive datasets.</p>
+<p><span class="math display">\[
+\text{Forward Pass: } y = f_\theta(x), \quad
+\text{Backward Pass: } \theta \leftarrow \theta - \eta \nabla_\theta L
+\]</span></p>
+<p>From perceptrons to transformers, every model refines this foundation — learning richer representations through mathematics and computation.</p>
 <p>We have already discussed the class of ARMA models for representing stationary series. A generalization of this class, which incorporates a wide range of nonstationary series, is provided by the <em>autoregressive integrated moving average</em> (ARIMA) processes, i.e., processes which, after differencing finitely many times, reduce to ARMA processes.</p>
 <p>If <span class="math inline">\(d\)</span> is a nonnegative integer, then <span class="math inline">\(X_t\)</span> is an ARIMA(<span class="math inline">\(p, d, q\)</span>) process if <span class="math inline">\(Y_t=(1 - B)^d X_t\)</span> is a causal ARMA(<span class="math inline">\(p, q\)</span>) process. The process is stationary if <span class="math inline">\(d = 0\)</span>, in which case it reduces to an ARMA(<span class="math inline">\(p, q\)</span>) process.</p>
 <p>For example <span class="math inline">\(X_t\)</span> is an ARIMA(1,1,0) process, then <span class="math inline">\(Y_t\)</span> representing the series of its first-order differences (because <span class="math inline">\(d = 1\)</span>) is an ARMA(1,0) process <span class="math display">\[
@@ -441,8 +758,8 @@ Note
 <p>ARIMA(<span class="math inline">\(p, d, q\)</span>) processes with <span class="math inline">\(d \geqslant 1\)</span> are also called <em>difference-stationary</em> processes or processes with a <em>stochastic trend</em>. I.e., difference-stationary means the process is not stationary but can be made stationary by proper differencing.</p>
 </div>
 </div>
-</section><section id="boxjenkins-methodology" class="level2" data-number="5.2"><h2 data-number="5.2" class="anchored" data-anchor-id="boxjenkins-methodology">
-<span class="header-section-number">5.2</span> Box–Jenkins methodology</h2>
+</section><section id="boxjenkins-methodology" class="level2" data-number="5.16"><h2 data-number="5.16" class="anchored" data-anchor-id="boxjenkins-methodology">
+<span class="header-section-number">5.16</span> Box–Jenkins methodology</h2>
 <p>The approach developed by <span class="citation" data-cites="Box:Jenkins:1976">Box and Jenkins (<a href="references.html#ref-Box:Jenkins:1976" role="doc-biblioref">1976</a>)</span> applies the differencing to the original time series repeatedly, until a stationary time series is obtained. We will first learn how to identify the number of differences (i.e., the order of differences <span class="math inline">\(d\)</span>) by analyzing plots of the time series and ACF at each iteration of the method. In the later lecture on detecting trends in time series, we will also introduce formal tests for the integration order.</p>
 <p>Below is a general algorithm used to fit ARIMA(<span class="math inline">\(p, d, q\)</span>) models</p>
 <ol type="1">
@@ -479,7 +796,7 @@ Example: ARIMA for Lake Baikal
 <div class="callout-body-container callout-body">
 <p>Here we find an ARIMA model for the Lake Baikal thaw (breakup) dates from the Global Lake and River Ice Phenology Database <span class="citation" data-cites="Benson:etal:2020">(<a href="references.html#ref-Benson:etal:2020" role="doc-biblioref">Benson et al. 2020</a>)</span>.</p>
 <div class="cell">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Calculate calendar day from ice break-up date</span></span>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Calculate calendar day from ice break-up date</span></span>
 <span><span class="va">B</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/utils/read.table.html">read.csv</a></span><span class="op">(</span><span class="st">"data/baikal.csv"</span>, skip <span class="op">=</span> <span class="fl">1</span><span class="op">)</span> <span class="op">%&gt;%</span></span>
 <span>    <span class="fu">mutate</span><span class="op">(</span>Date_iceoff <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/as.Date.html">as.Date</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste</a></span><span class="op">(</span><span class="va">iceoff_year</span>, <span class="va">iceoff_month</span>, <span class="va">iceoff_day</span>,</span>
 <span>                                       sep <span class="op">=</span> <span class="st">"-"</span><span class="op">)</span><span class="op">)</span><span class="op">)</span> <span class="op">%&gt;%</span></span>
@@ -491,7 +808,7 @@ Example: ARIMA for Lake Baikal
 </div>
 <p><a href="#fig-BaikalARIMA" class="quarto-xref">Figure&nbsp;<span>5.1</span></a> shows that there is possibly a decreasing trend (ice melts earlier in the year), although the ACF declines fast.</p>
 <div class="cell">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">X</span> <span class="op">&lt;-</span> <span class="va">iceoff</span></span>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">X</span> <span class="op">&lt;-</span> <span class="va">iceoff</span></span>
 <span><span class="va">p1</span> <span class="op">&lt;-</span> <span class="fu">forecast</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/autoplot.html">autoplot</a></span><span class="op">(</span><span class="va">X</span><span class="op">)</span> <span class="op">+</span></span>
 <span>    <span class="fu">xlab</span><span class="op">(</span><span class="st">"Year"</span><span class="op">)</span> <span class="op">+</span></span>
 <span>    <span class="fu">ylab</span><span class="op">(</span><span class="st">"Ice breakup day"</span><span class="op">)</span></span>
@@ -514,7 +831,7 @@ Figure&nbsp;5.1: Plots for the original time series of ice breakup days.
 </div>
 <p>To remove this potential trend, we apply differencing once (more specifically, consecutive differencing, <span class="math inline">\(X_t - X_{t-1}\)</span>) and produce the plots again. From <a href="#fig-BaikalARIMAd1" class="quarto-xref">Figure&nbsp;<span>5.2</span></a>, there is no tendency in the differenced series, and the ACF declines fast, so we achieved stationarity and no need to difference the data more. Overall, we differenced the time series once to achieve stationarity, so the order of differences <span class="math inline">\(d = 1\)</span>.</p>
 <div class="cell">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">X</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/diff.html">diff</a></span><span class="op">(</span><span class="va">iceoff</span><span class="op">)</span></span>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">X</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/diff.html">diff</a></span><span class="op">(</span><span class="va">iceoff</span><span class="op">)</span></span>
 <span><span class="va">p1</span> <span class="op">&lt;-</span> <span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/autoplot.html">autoplot</a></span><span class="op">(</span><span class="va">X</span><span class="op">)</span> <span class="op">+</span></span>
 <span>    <span class="fu">xlab</span><span class="op">(</span><span class="st">"Year"</span><span class="op">)</span> <span class="op">+</span></span>
 <span>    <span class="fu">ylab</span><span class="op">(</span><span class="st">"diff(Ice breakup day)"</span><span class="op">)</span></span>
@@ -543,7 +860,7 @@ Y_t = Y_{t-1} + \theta_1 Z_{t-1} + Z_t,
 \]</span> where <span class="math inline">\(Y_t\)</span> represents the ice breakup dates in the year <span class="math inline">\(t\)</span>, <span class="math inline">\(\theta_1\)</span> is the moving average coefficient, and <span class="math inline">\(Z_t\sim \mathrm{WN}(0,\sigma^2)\)</span>.</p>
 <p>We can now estimate the model, for example, using <code><a href="https://rdrr.io/r/stats/arima.html">stats::arima()</a></code>.</p>
 <div class="cell">
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mod_baikal</span> <span class="op">&lt;-</span> <span class="fu">stats</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/stats/arima.html">arima</a></span><span class="op">(</span><span class="va">iceoff</span>, order <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">0</span>, <span class="fl">1</span>, <span class="fl">1</span><span class="op">)</span><span class="op">)</span></span>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mod_baikal</span> <span class="op">&lt;-</span> <span class="fu">stats</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/stats/arima.html">arima</a></span><span class="op">(</span><span class="va">iceoff</span>, order <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">0</span>, <span class="fl">1</span>, <span class="fl">1</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="va">mod_baikal</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>#&gt; 
@@ -560,7 +877,7 @@ Y_t = Y_{t-1} + \theta_1 Z_{t-1} + Z_t,
 </div>
 <p>We can also check the orders selected automatically:</p>
 <div class="cell">
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">forecast</span><span class="fu">::</span><span class="fu"><a href="https://pkg.robjhyndman.com/forecast/reference/auto.arima.html">auto.arima</a></span><span class="op">(</span><span class="va">iceoff</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">forecast</span><span class="fu">::</span><span class="fu"><a href="https://pkg.robjhyndman.com/forecast/reference/auto.arima.html">auto.arima</a></span><span class="op">(</span><span class="va">iceoff</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>#&gt; Series: iceoff 
 #&gt; ARIMA(0,1,1) 
@@ -576,7 +893,7 @@ Y_t = Y_{t-1} + \theta_1 Z_{t-1} + Z_t,
 </div>
 <p>In the next step, we apply diagnostic checks for the residuals, for example, using plots (<a href="#fig-BaikalARIMAres" class="quarto-xref">Figure&nbsp;<span>5.3</span></a>). Remember that the residuals should resemble white noise.</p>
 <div class="cell">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb8"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">e</span> <span class="op">&lt;-</span> <span class="va">mod_baikal</span><span class="op">$</span><span class="va">residuals</span></span>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">e</span> <span class="op">&lt;-</span> <span class="va">mod_baikal</span><span class="op">$</span><span class="va">residuals</span></span>
 <span><span class="va">p1</span> <span class="op">&lt;-</span> <span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/autoplot.html">autoplot</a></span><span class="op">(</span><span class="va">e</span><span class="op">)</span> <span class="op">+</span> </span>
 <span>    <span class="fu">ylab</span><span class="op">(</span><span class="st">"Residuals"</span><span class="op">)</span></span>
 <span><span class="va">p2</span> <span class="op">&lt;-</span> <span class="fu">forecast</span><span class="fu">::</span><span class="fu"><a href="https://pkg.robjhyndman.com/forecast/reference/autoplot.acf.html">ggAcf</a></span><span class="op">(</span><span class="va">e</span><span class="op">)</span> <span class="op">+</span></span>
@@ -598,7 +915,7 @@ Figure&nbsp;5.3: Residual diagnostics for the ARIMA(0,1,1) model for ice breakup
 </div>
 <p>Given that the diagnostics plots show satisfactory behavior of the residuals (<a href="#fig-BaikalARIMAres" class="quarto-xref">Figure&nbsp;<span>5.3</span></a>), continue with forecasting using this model (<a href="#fig-BaikalARIMAfcst" class="quarto-xref">Figure&nbsp;<span>5.4</span></a>). Note that ARIMA(0,1,1) is mathematically equivalent to simple exponential smoothing, hence the forecast is a horizontal line.</p>
 <div class="cell">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/autoplot.html">autoplot</a></span><span class="op">(</span><span class="fu">forecast</span><span class="fu">::</span><span class="fu"><a href="https://generics.r-lib.org/reference/forecast.html">forecast</a></span><span class="op">(</span><span class="va">mod_baikal</span>, h <span class="op">=</span> <span class="fl">10</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> </span>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/autoplot.html">autoplot</a></span><span class="op">(</span><span class="fu">forecast</span><span class="fu">::</span><span class="fu"><a href="https://generics.r-lib.org/reference/forecast.html">forecast</a></span><span class="op">(</span><span class="va">mod_baikal</span>, h <span class="op">=</span> <span class="fl">10</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> </span>
 <span>    <span class="fu">xlab</span><span class="op">(</span><span class="st">"Year"</span><span class="op">)</span> <span class="op">+</span></span>
 <span>    <span class="fu">ylab</span><span class="op">(</span><span class="st">"Ice breakup day"</span><span class="op">)</span> <span class="op">+</span></span>
 <span>    <span class="fu">ggtitle</span><span class="op">(</span><span class="st">""</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -615,8 +932,8 @@ Figure&nbsp;5.4: ARIMA(0,1,1) model predictions of ice breakup dates 10 years ah
 </div>
 </div>
 </div>
-</section><section id="seasonal-arima-sarima" class="level2" data-number="5.3"><h2 data-number="5.3" class="anchored" data-anchor-id="seasonal-arima-sarima">
-<span class="header-section-number">5.3</span> Seasonal ARIMA (SARIMA)</h2>
+</section><section id="seasonal-arima-sarima" class="level2" data-number="5.17"><h2 data-number="5.17" class="anchored" data-anchor-id="seasonal-arima-sarima">
+<span class="header-section-number">5.17</span> Seasonal ARIMA (SARIMA)</h2>
 <p>Recall that time series with seasonal variability or another strictly periodic component (e.g., daily cycles) can be deseasonalized by applying differencing that is not of consecutive values but with a lag equal to the period of the cyclical variability. We will use such differences to remove <em>strong</em> periodicity, as an additional step in the Box–Jenkins algorithm.</p>
 <p>Similar to the regular differences, we will apply seasonal differences not to eliminate autocorrelations at the corresponding lags, but to achieve fast decay of ACF at seasonal lags. Even after the seasonal differences, there might be significant spikes at the seasonal lags in ACF and PACF, which can be addressed by selecting proper seasonal autoregressive and moving average orders. Therefore, we can define orders of integration, AR, and MA for the seasonal part of the time series in the same way we define these orders for the non-seasonal part.</p>
 <p>Based on the definitions in <span class="citation" data-cites="Brockwell:Davis:2002">Brockwell and Davis (<a href="references.html#ref-Brockwell:Davis:2002" role="doc-biblioref">2002</a>)</span>, <span class="math inline">\(X_t\)</span> is a <em>seasonal autoregressive integrated moving average</em>, SARIMA(<span class="math inline">\(p,d,q\)</span>)(<span class="math inline">\(P,D,Q\)</span>)<span class="math inline">\(_s\)</span> process if the differenced series <span class="math inline">\(Y_t=(1 - B)^d (1 - B^s)^D X_t\)</span> is a causal ARMA process. Here <span class="math inline">\(d\)</span> and <span class="math inline">\(D\)</span> are nonnegative integers, and <span class="math inline">\(s\)</span> is the period.</p>
@@ -651,7 +968,7 @@ Example: SARIMA for the number of airline passengers
 <div class="callout-body-container callout-body">
 <p>Here we revisit the time series on airline passengers from which we have removed the trend by taking regular non-seasonal differences once (<span class="math inline">\(d = 1\)</span>). Notice from <a href="#fig-AirDiff" class="quarto-xref">Figure&nbsp;<span>5.5</span></a> C and D how after taking the usual differences the upward trend disappeared, and ACF started to decay much faster. At the seasonal lags, however, the ACF decays still linearly (<a href="#fig-AirDiff" class="quarto-xref">Figure&nbsp;<span>5.5</span></a> D), which suggested differencing at the seasonal lag to remove strong periodicity. After taking seasonal differences once (<span class="math inline">\(D = 1\)</span>), the time series looks stationary (<a href="#fig-AirDiff" class="quarto-xref">Figure&nbsp;<span>5.5</span></a> E), and the ACF decays fast at both seasonal and non-seasonal lags. This is enough differencing.</p>
 <div class="cell">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">Yt</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Log.html">log10</a></span><span class="op">(</span><span class="va">AirPassengers</span><span class="op">)</span></span>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb11"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">Yt</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Log.html">log10</a></span><span class="op">(</span><span class="va">AirPassengers</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># Apply first-order (non-seasonal) differences</span></span>
 <span><span class="va">D1</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/diff.html">diff</a></span><span class="op">(</span><span class="va">Yt</span><span class="op">)</span></span>
@@ -696,7 +1013,7 @@ Figure&nbsp;5.5: Time series plot of the airline passenger series with an estima
 <p>For the next step, see <a href="#fig-AirDiffACF" class="quarto-xref">Figure&nbsp;<span>5.6</span></a> to identify the orders <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span>. For that, look only at the non-seasonal lags, 1–11. Both ACF and PACF have significant values at lags 1 and 3, which could correspond to AR(3), MA(3), ARMA(1,1), or ARMA with higher orders. From these options ARMA(1,1) has fewer parameters, hence we prefer this model, with <span class="math inline">\(p = 1\)</span> and <span class="math inline">\(q = 1\)</span>, as the most parsimonious option. (However, given that the correlations at lag 2 are not statistically significant, information criteria may penalize adding extra arguments and might prefer a more compact specification, AR(1) or MA(1).)</p>
 <p>Next, use <a href="#fig-AirDiffACF" class="quarto-xref">Figure&nbsp;<span>5.6</span></a> again to identify orders <span class="math inline">\(P\)</span> and <span class="math inline">\(Q\)</span>. Now look only at the seasonal lags 12, 24, 36, etc. Both the ACF and PACF have significant values only on the first of those lags (lag 12), which could correspond to AR(1), MA(1), or ARMA(1,1) for the seasonal component. From these options, AR(1) and MA(1) are the most parsimonious so we should select one of them or use some numeric criterion to select the best model (e.g., information criterion like AIC or forecasting accuracy on a testing set).</p>
 <div class="cell">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb11"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">p6</span> <span class="op">&lt;-</span> <span class="fu">forecast</span><span class="fu">::</span><span class="fu"><a href="https://pkg.robjhyndman.com/forecast/reference/autoplot.acf.html">ggAcf</a></span><span class="op">(</span><span class="va">D1D12</span>, lag.max <span class="op">=</span> <span class="fl">36</span><span class="op">)</span> <span class="op">+</span> </span>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb12"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">p6</span> <span class="op">&lt;-</span> <span class="fu">forecast</span><span class="fu">::</span><span class="fu"><a href="https://pkg.robjhyndman.com/forecast/reference/autoplot.acf.html">ggAcf</a></span><span class="op">(</span><span class="va">D1D12</span>, lag.max <span class="op">=</span> <span class="fl">36</span><span class="op">)</span> <span class="op">+</span> </span>
 <span>    <span class="fu">ggtitle</span><span class="op">(</span><span class="st">"(1-B)(1-B12)Yt"</span><span class="op">)</span> <span class="op">+</span></span>
 <span>    <span class="fu">xlab</span><span class="op">(</span><span class="st">"Lag (months)"</span><span class="op">)</span></span>
 <span><span class="va">p7</span> <span class="op">&lt;-</span> <span class="fu">forecast</span><span class="fu">::</span><span class="fu"><a href="https://pkg.robjhyndman.com/forecast/reference/autoplot.acf.html">ggAcf</a></span><span class="op">(</span><span class="va">D1D12</span>, lag.max <span class="op">=</span> <span class="fl">36</span>, type <span class="op">=</span> <span class="st">"partial"</span><span class="op">)</span> <span class="op">+</span> </span>
@@ -717,7 +1034,7 @@ Figure&nbsp;5.6: ACF and PACF of the differenced airline passenger time series <
 </div>
 <p>Overall, our analysis suggested that SARIMA(1,1,1)(1,1,0) or SARIMA(1,1,1)(0,1,1) is a plausible model for this time series. For example, estimate SARIMA(1,1,1)(0,1,1):</p>
 <div class="cell">
-<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mod_air</span> <span class="op">&lt;-</span> <span class="fu">stats</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/stats/arima.html">arima</a></span><span class="op">(</span><span class="va">Yt</span>, order <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">1</span>, <span class="fl">1</span>, <span class="fl">1</span><span class="op">)</span>,</span>
+<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mod_air</span> <span class="op">&lt;-</span> <span class="fu">stats</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/stats/arima.html">arima</a></span><span class="op">(</span><span class="va">Yt</span>, order <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">1</span>, <span class="fl">1</span>, <span class="fl">1</span><span class="op">)</span>,</span>
 <span>                        seasonal <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span>order <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">0</span>, <span class="fl">1</span>, <span class="fl">1</span><span class="op">)</span>,</span>
 <span>                                        period <span class="op">=</span> <span class="fl">12</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="va">mod_air</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -763,7 +1080,7 @@ X_t = X_{t-1} + \phi_1X_{t-1} - \phi_1X_{t-2} + X_{t-12} - X_{t-13} - \phi_1X_{t
 \]</span> where <span class="math inline">\(X_t = \lg(AirPassengers)\)</span> and <span class="math inline">\(Z_t\sim \mathrm{WN}(0,\sigma^2)\)</span>.</p>
 <p>Below are results based on the automatic selection of the orders:</p>
 <div class="cell">
-<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">forecast</span><span class="fu">::</span><span class="fu"><a href="https://pkg.robjhyndman.com/forecast/reference/auto.arima.html">auto.arima</a></span><span class="op">(</span><span class="va">Yt</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb15"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">forecast</span><span class="fu">::</span><span class="fu"><a href="https://pkg.robjhyndman.com/forecast/reference/auto.arima.html">auto.arima</a></span><span class="op">(</span><span class="va">Yt</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>#&gt; Series: Yt 
 #&gt; ARIMA(0,1,1)(0,1,1)[12] 
@@ -780,7 +1097,7 @@ X_t = X_{t-1} + \phi_1X_{t-1} - \phi_1X_{t-2} + X_{t-12} - X_{t-13} - \phi_1X_{t
 <p>The orders selected automatically based on AIC suggest that indeed the non-significance of correlations at lag 2 and relatively low correlations at lag 3 made it not worthy to estimate additional parameters in the non-seasonal part, for which MA(1) specification was selected, not the suggested ARMA(1,1), AR(3), or MA(3).</p>
 <p>In the next step, we apply diagnostic checks for the residuals, for example, using plots (<a href="#fig-AirARIMAres" class="quarto-xref">Figure&nbsp;<span>5.7</span></a>).</p>
 <div class="cell">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb16"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">e</span> <span class="op">&lt;-</span> <span class="va">mod_air</span><span class="op">$</span><span class="va">residuals</span></span>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb17"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">e</span> <span class="op">&lt;-</span> <span class="va">mod_air</span><span class="op">$</span><span class="va">residuals</span></span>
 <span><span class="va">p1</span> <span class="op">&lt;-</span> <span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/autoplot.html">autoplot</a></span><span class="op">(</span><span class="va">e</span><span class="op">)</span> <span class="op">+</span> </span>
 <span>    <span class="fu">ylab</span><span class="op">(</span><span class="st">"Residuals"</span><span class="op">)</span></span>
 <span><span class="va">p2</span> <span class="op">&lt;-</span> <span class="fu">forecast</span><span class="fu">::</span><span class="fu"><a href="https://pkg.robjhyndman.com/forecast/reference/autoplot.acf.html">ggAcf</a></span><span class="op">(</span><span class="va">e</span><span class="op">)</span> <span class="op">+</span></span>
@@ -802,7 +1119,7 @@ Figure&nbsp;5.7: Residual diagnostics for the SARIMA model for the airline passe
 </div>
 <p>Given that the diagnostics plots show satisfactory behavior of the residuals (<a href="#fig-AirARIMAres" class="quarto-xref">Figure&nbsp;<span>5.7</span></a>), continue with forecasting using this model (<a href="#fig-AirARIMAfcst" class="quarto-xref">Figure&nbsp;<span>5.8</span></a>).</p>
 <div class="cell">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb17"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/autoplot.html">autoplot</a></span><span class="op">(</span><span class="fu">forecast</span><span class="fu">::</span><span class="fu"><a href="https://generics.r-lib.org/reference/forecast.html">forecast</a></span><span class="op">(</span><span class="va">mod_air</span>, h <span class="op">=</span> <span class="fl">24</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> </span>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb18"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/autoplot.html">autoplot</a></span><span class="op">(</span><span class="fu">forecast</span><span class="fu">::</span><span class="fu"><a href="https://generics.r-lib.org/reference/forecast.html">forecast</a></span><span class="op">(</span><span class="va">mod_air</span>, h <span class="op">=</span> <span class="fl">24</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> </span>
 <span>    <span class="fu">xlab</span><span class="op">(</span><span class="st">"Year"</span><span class="op">)</span> <span class="op">+</span></span>
 <span>    <span class="fu">ylab</span><span class="op">(</span><span class="st">"lg(Air passangers)"</span><span class="op">)</span> <span class="op">+</span></span>
 <span>    <span class="fu">ggtitle</span><span class="op">(</span><span class="st">""</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -820,13 +1137,13 @@ Figure&nbsp;5.8: SARIMA model predictions of airline passenger data 2 years ahea
 <p>Compare ACF in <a href="#fig-AirARIMAres" class="quarto-xref">Figure&nbsp;<span>5.7</span></a> with ACF of regression residuals in <a href="l03_smoothing.html#fig-airpassangersRegTrendSeas" class="quarto-xref">Figure&nbsp;<span>3.15</span></a> and <a href="l03_smoothing.html#fig-airpassangersRegTrendFourier" class="quarto-xref">Figure&nbsp;<span>3.16</span></a>. The residuals of those regression models are autocorrelated, while the models have more parameters than the specified SARIMA models. Hence, the SARIMA model is much better for this time series.</p>
 </div>
 </div>
-</section><section id="conclusion" class="level2" data-number="5.4"><h2 data-number="5.4" class="anchored" data-anchor-id="conclusion">
-<span class="header-section-number">5.4</span> Conclusion</h2>
+</section><section id="conclusion" class="level2" data-number="5.18"><h2 data-number="5.18" class="anchored" data-anchor-id="conclusion">
+<span class="header-section-number">5.18</span> Conclusion</h2>
 <p>In this lecture, we discovered ARIMA as an extension of ARMA modeling to nonstationary data and SARIMA as an extension of ARIMA models to time series with periodicity (seasonality).</p>
 <p>We learned Box–Jenkins iterative procedure for identifying such models, including the orders of differences, <span class="math inline">\(d\)</span> and <span class="math inline">\(D\)</span>, and <span class="math inline">\(p\)</span>, <span class="math inline">\(q\)</span>, <span class="math inline">\(P\)</span>, and <span class="math inline">\(Q\)</span>.</p>
 <p>Please remember to specify the criterion for selecting a model beforehand and consider such options as cross-validation and using a testing set.</p>
-</section><section id="appendix" class="level2" data-number="5.5"><h2 data-number="5.5" class="anchored" data-anchor-id="appendix">
-<span class="header-section-number">5.5</span> Appendix</h2>
+</section><section id="appendix" class="level2" data-number="5.19"><h2 data-number="5.19" class="anchored" data-anchor-id="appendix">
+<span class="header-section-number">5.19</span> Appendix</h2>
 <p><strong>Equivalences</strong></p>
 <p>Mathematically, some models are equivalent one to another. Below are some examples.</p>
 <ul>
