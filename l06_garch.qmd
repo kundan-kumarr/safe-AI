@@ -11,7 +11,7 @@ library(patchwork)
 options(digits = 3)
 theme_set(theme_light())
 ```
-
+<!--
 # Adversarial Machine Learning {#sec-GARCH}
 
 The goal of this lecture is to introduce a class of models with conditional heteroskedasticity for stationary time series. 
@@ -371,3 +371,4 @@ GARCH effects are tested for and modeled *after* the mean (i.e., trend) and auto
 Standard model selection techniques can be adapted to specify GARCH models.
 
 R packages offering functions for GARCH modeling include (in alphabetic order): `bayesforecast`, `betategarch`, `fGarch` (used here), `garchx`, `rmgarch`, `rugarch`, `tseries`, and more (see, for example, CRAN Task Views on [Empirical Finance](https://cran.r-project.org/web/views/Finance.html)).
+-->

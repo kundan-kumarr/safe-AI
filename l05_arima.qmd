@@ -97,7 +97,6 @@ $$
 Neural networks learn these nonlinear transformations automatically through layers of activations.
 ![](figures/linear_vs_nonlinear.png){fig-cap="Linear vs Nonlinear Classification.  
 Linear classifiers separate data using a single hyperplane, while nonlinear classifiers create curved or complex boundaries through kernel transformations or hidden layers in neural networks." width=80%}
-
 ```{python}
 
 import matplotlib.pyplot as plt
@@ -126,7 +125,6 @@ plt.legend()
 plt.grid(alpha=0.3)
 plt.show()
 ```
-
 
 ## Structure of Neural Networks
 
@@ -311,7 +309,7 @@ $$
 
 From perceptrons to transformers, every model refines this foundation — learning richer representations through mathematics and computation.
 
-
+<!--
 We have already discussed the class of ARMA models for representing stationary series. 
 A generalization of this class, which incorporates a wide range of nonstationary series, is provided by the *autoregressive integrated moving average* (ARIMA) processes, i.e., processes which, after differencing finitely many times, reduce to ARMA processes.
 
@@ -752,3 +750,4 @@ $$
 * Forecasts of ARIMA(0,2,2) are equivalent to Holt's method.
 
 * Forecasts of SARIMA(0,1,$s+1$)(0,1,0)$_s$ are equivalent to Holt--Winters additive method.
+-->

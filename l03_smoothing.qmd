@@ -12,6 +12,7 @@ options(digits = 3)
 theme_set(theme_light())
 ```
 
+<!--
 # Deep Learning Models Overview
 
 The goal of this lecture is to learn a variety of methods used for *trend visualization* (such that make a trend in noisy data more apparent), *trend modeling* (such that can help us to come up with 'an equation' for the trend, which could be further studied or used for interpolation, forecasting, or detrending), and *detrending* (just to remove trend from the series, with or without modeling it). 
@@ -1405,3 +1406,4 @@ ggplot(data.frame(t = t, Xt = Xt), aes(x = t, y = Xt)) +
     geom_smooth(se = FALSE, span = 0.25)
 ```
 :::
+-->

@@ -12,6 +12,7 @@ options(digits = 3)
 theme_set(theme_light())
 ```
 
+<!--
 # Introduction to Time Series Analysis
 
 The goal of this lecture is to introduce time series and their common components. 
@@ -528,3 +529,4 @@ We defined (P)ACF for stationary series; R functions also assume stationarity of
 After developing several models for modeling and forecasting time series, we can compare them quantitatively in cross-validation. 
 For time series, it is typical to have the testing set (or a validation fold) to be after the training set. 
 Models can be compared based on the accuracy of their point forecasts and interval forecasts.
+-->

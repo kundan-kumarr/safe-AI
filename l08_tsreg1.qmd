@@ -13,7 +13,7 @@ theme_set(theme_light())
 ```
 
 # Black-box Evasion Attack
-
+<!--
 The goal of this lecture is to introduce methods of handling nonstationary time series in regression models. 
 You will become familiar with the problem of spurious correlation (regression) and approaches helping to avoid it.
 
@@ -568,3 +568,4 @@ The error correction model in @eq-ecm should be estimated for testing [$p$-value
 
 Now we can incorporate trend effects into our models, using the three considered approaches or by testing for cointegration and applying an error correction model. 
 The next step would be to incorporate autocorrelation structure in the residuals (the simulated example considered here used independent normally distributed noise, so it was an artificial ideal case of no autocorrelation, whereas we usually encounter autocorrelations, e.g., see residual diagnostics in the examples in @sec-incorporateTime).
+-->

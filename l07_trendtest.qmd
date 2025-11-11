@@ -13,7 +13,7 @@ theme_set(theme_light())
 ```
 
 # White-box Evasion Attack {#sec-trendtest}
-
+<!--
 This lecture demonstrates the effects of autocorrelation on the results of statistical tests for trend detection. 
 You will recall the assumptions of the classical $t$-test and Mann--Kendall tests and will be able to suggest bootstrapped modifications of these tests to overcome the problem of temporal dependence. 
 Moreover, you will become familiar with tests for non-monotonic parametric trends and stochastic trends. 
@@ -550,3 +550,4 @@ Remember that non-rejection of the null hypothesis doesn't make it automatically
 
 When testing for unit roots (integration) in time series, the null hypothesis of ADF and PP tests is the unit root, while the alternative is the stationarity of the tested series.
 Iterative testing and differencing can be used to identify the order of integration $d$.
+-->
