@@ -1,72 +1,119 @@
 project:
-    type: book
-    output-dir: docs
+  type: book
+  output-dir: docs
 
 book:
-    title: Safe AI for Cyber-Physical Systems
-    subtitle: Model Security, Adversarial Robustness, and Trustworthy Methods
-    author: Kundan Kumar
-    # date: today
-    date-format: iso
-    favicon: favicon.png
-    cover-image: TSAcov.png
-    repo-url: https://github.com/kundan-kumarr/StatSphere/
-    repo-branch: master
-    repo-actions: [edit, issue]
-    downloads: [pdf, epub]
-    sharing: [twitter, facebook]
-    page-navigation: true
-    reader-mode: true
-    sidebar:
-        search: true
-    chapters:
-        - index.qmd
-        - l01_regression.qmd
-        - l02_tsintro.qmd
-        - l03_smoothing.qmd
-        - l04_arma.qmd
-        - l05_arima.qmd
-        - l06_garch.qmd
-        - l07_trendtest.qmd
-        - l08_tsreg1.qmd
-        - l09_tsreg2.qmd
-        - l10_causality.qmd
-        - l11_panel.qmd
-        - l12_forecast.qmd
-        - l13_spectral.qmd
-        #- software.qmd
-        - references.qmd
-    appendices:
-        - s1_wls.qmd
-        - s2_gls.qmd
-        - s4_trendsync.qmd
-        - s6_extremes.qmd
-        - s_practice.qmd
+  title: "Safe AI for Cyber-Physical & Intelligent Systems"
+  subtitle: "Model Security, Adversarial Robustness, and Trustworthy LLM Methods"
+  author: Kundan Kumar
+  date: today
+  date-format: iso
+  favicon: favicon.png
+  cover-image: TSAcov.png
+  repo-url: https://github.com/kundan-kumarr/StatSphere/
+  repo-branch: master
+  repo-actions: [edit, issue]
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
+  page-navigation: true
+  reader-mode: true
+  sidebar:
+    search: true
+  chapters:
+    - index.qmd
+
+    - part: "Part I — Foundations of Safe Intelligent Systems"
+      chapters:
+        - intro-ai-security.qmd
+        - ml-for-cps.qmd
+        - deep-learning.qmd
+
+    - part: "Part II — Adversarial Machine Learning"
+      chapters:
+        - advml-fundamentals.qmd
+        - whitebox-attacks.qmd
+        - blackbox-attacks.qmd
+        - data-poisoning.qmd
+        - defenses-advml.qmd
+
+    - part: "Part III — Attacks on Large Language Models"
+      chapters:
+        - prompt-injection.qmd
+        - prompt-extraction.qmd
+        - tool-attacks.qmd
+        - memory-poisoning.qmd
+        - rag-poisoning.qmd
+        - jailbreak-automation.qmd
+
+    - part: "Part IV — Defenses for Large Language Models"
+      chapters:
+        - defensive-prompts.qmd
+        - tool-gating.qmd
+        - rag-security.qmd
+        - monitoring.qmd
+        - governance.qmd
+
+    - part: "Part V — Safe AI for Cyber-Physical Systems"
+      chapters:
+        - safe-rl.qmd
+        - cps-attacks.qmd
+        - cps-defenses.qmd
+
+    - part: "Part VI — Methods for Research, Evaluation & Reproducibility"
+      chapters:
+        - research-methods.qmd
+        - research-directions.qmd
+        - writing-papers.qmd
+
+    - part: "Part VII — Alignment & Safe Autonomous Agents"
+      chapters:
+        - alignment-intro.qmd
+        - goal-misgeneralization.qmd
+        - deceptive-alignment.qmd
+        - rlhf-constitutional-ai.qmd
+        - safe-agent-architectures.qmd
+        - alignment-for-cps.qmd
+        - responsible-deployment.qmd
+        - open-problems.qmd
+
+    - references.qmd
+
+  appendices:
+    - appendix-prompt-engineering.qmd
+    - appendix-eval-checklists.qmd
+    - appendix-security-patterns.qmd
+    - appendix-datasets-benchmarks.qmd
+    - appendix-tools-libraries.qmd
 
 bibliography:
-    - references.bib
-    - refpackages.bib
-csl: springerbasicVL.csl
+  - references.bib
+  - refpackages.bib
 
+csl: springerbasicVL.csl
 appendix-style: default
 
 format:
-    html:
-        code-fold: true
-        code-link: true
-        theme: cosmo
-        fig-width: 8
-        fig-height: 5
+  html:
+    code-fold: true
+    code-link: true
+    theme: cosmo
+    fig-width: 8
+    fig-height: 5
+  pdf:
+    documentclass: scrbook
+  epub: default
 
 engine: knitr
+
 knitr:
-    opts_chunk:
-        collapse: false
-        message: false
-        warning: false
-        comment: "#>"
-        R.options:
-            knitr.graphics.auto_pdf: true
+  opts_chunk:
+    collapse: false
+    message: false
+    warning: false
+    comment: "#>"
+    R.options:
+      knitr.graphics.auto_pdf: true
+
 execute:
-    eval: true
-    echo: true
+  eval: true
+  echo: true
