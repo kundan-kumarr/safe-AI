@@ -10,7 +10,7 @@ book:
   date-format: iso
   favicon: favicon.png
   cover-image: TSAcov.png
-  repo-url: https://github.com/kundan-kumarr/StatSphere/
+  repo-url: https://github.com/kundan-kumarr/safe-AI/
   repo-branch: master
   repo-actions: [edit, issue]
   downloads: [pdf, epub]
